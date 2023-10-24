@@ -2,7 +2,8 @@
 
 ### Date: 10/24/2023
 
-```let UserName: string;
+```ts
+let UserName: string;
 let age: number;
 
 // UserName = 98 / there is a type error
@@ -20,7 +21,4 @@ let myObj = {
 
 // myObj.name = 76 'number' is not assignable to type 'string'
 myObj.name = "hasim"; // thats the correct
-
-
-
 ```
