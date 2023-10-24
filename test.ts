@@ -40,3 +40,23 @@ let tryObj: optionalObj = {
   age: 76,
   //   phone: "777777" if i comment this line there is no error
 };
+
+// now its time to practice interface
+
+interface worker {
+  name: string;
+  age: number;
+  id: number;
+  gender: string;
+  isMarried: true | false;
+  phone?: number;
+}
+
+let trObj: worker = {
+  name: "akash",
+  age: 76,
+  id: 788,
+  gender: "male",
+  isMarried: false,
+  phone: +8801318509643,
+};
