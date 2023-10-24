@@ -53,7 +53,6 @@ let tryObj: optionalObj = {
 ```
 
 > [!IMPORTANT]
-
 > I tried to learn interface in typescript
 
 ```ts
