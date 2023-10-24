@@ -16,3 +16,27 @@ let myObj = {
 
 // myObj.name = 76 'number' is not assignable to type 'string'
 myObj.name = "hasim"; // thats the correct
+
+// lets talk about type
+type User = {
+  studentName: string;
+  age: number;
+};
+
+let stdObj: User = {
+  studentName: "asraful",
+  age: 54,
+};
+
+// optional Chaining it means phone is not mandatory
+type optionalObj = {
+  userName: string;
+  age: number;
+  phone?: string;
+};
+
+let tryObj: optionalObj = {
+  userName: "hhh",
+  age: 76,
+  //   phone: "777777" if i comment this line there is no error
+};
