@@ -52,7 +52,7 @@ let tryObj: optionalObj = {
 };
 ```
 
-## >[!IMPORTANT]
+> [!IMPORTANT]
 
 > I tried to learn interface in typescript
 
@@ -76,4 +76,28 @@ let trObj: worker = {
   isMarried: false,
   phone: +8801318509643,
 };
+```
+
+## Function Type practice
+
+> [!IMPORTANT]
+> Function practice more and more
+
+```ts
+// Function Type
+
+const myFunc = (a: number, b: number) => {
+  console.log(a + b);
+};
+// myFunc(2,"2") there is type error
+
+/*
+ * function return and optional chaining
+ */
+
+const func = (a: number, b: number, c?: boolean): string => {
+  return `values are ${a}, ${b}, ${c}`;
+};
+
+func(2, 3);
 ```
