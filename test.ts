@@ -60,3 +60,29 @@ let trObj: worker = {
   isMarried: false,
   phone: +8801318509643,
 };
+
+// Function Type
+
+const myFunc = (a: number, b: number) => {
+  console.log(a + b);
+};
+// myFunc(2,"2") there is type error
+
+/*
+ * function return and optional chaining
+ */
+
+const func = (a: number, b: number, c?: boolean): string => {
+  return `values are ${a}, ${b}, ${c}`;
+};
+
+func(2, 3);
+
+// Function signature
+
+let addNumbers: (x: number, y: number) => number; //it is a signature i mean structure
+
+addNumbers = (a, b) => {
+  console.log(a + b);
+  return a + b;
+};
